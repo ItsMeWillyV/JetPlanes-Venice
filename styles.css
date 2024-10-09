@@ -1,0 +1,75 @@
+@charset "utf-8";
+html {
+	background-color: #5a5a5a;
+}
+
+body {
+	font-family: Inter, system-ui, Roboto, Oxygen, Ubuntu, Cantarell, Arial, sans-serif;
+	font-weight: 600;
+	background-color: rgb(221, 221, 221);
+	margin: auto;
+	width: 75%
+}
+
+header {
+	text-align: center;
+	font-family: "Pacifico", cursive;
+	font-size: 1.5em;
+	padding-top: 10px;
+	margin: 0px;
+	border-bottom: 2px solid black;
+}
+img {
+    border-radius: 15%;
+}
+.places {
+	width: 40%;
+	text-align: center; 
+}
+.about {
+    width: 75%;
+    margin: auto;
+    text-align: center;
+}
+
+section {
+	width: 75%;
+	margin: auto;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-bottom: 25px;
+}
+
+footer {
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+	body {
+		width: 100%;
+	}
+    header {
+        font-size: 1em;
+    }
+    header > h1 {
+        margin: 0px;
+    }
+}
+@media screen and (max-width: 750px) {
+	.places {
+		width: 100%;
+		margin: auto;
+	}
+    .about {
+		width: 100%;
+		margin: auto;
+	}
+    p {
+        font-size: 0.9em;
+    }
+    figcaption {
+        display: none;
+    }
+}
